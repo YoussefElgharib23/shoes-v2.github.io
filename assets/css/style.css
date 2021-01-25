@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
 
-h1, h2, h3, h4, h5, h6, a, p, .smalltext {
+h1, h2, h3, h4, h5, h6, a, p, .smalltext, label, input {
     text-align: right !important;
     font-family: 'Cairo', sans-serif;
 }
@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6, a, p, .smalltext {
 }
 
 .box > * {
-    text-align: center;
+    text-align: right !important;
 }
 
 .item > * {
