@@ -273,7 +273,7 @@ input {
         width: 160%;
         height: 100%;
         bottom: -632px;
-        left: 0;
+        left: -500px;
         background: white;
         transform: skew(79deg);
     }
