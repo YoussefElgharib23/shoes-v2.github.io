@@ -29,6 +29,8 @@
 
     <link rel="stylesheet" href="assets/fonts/fonts.css">
 
+    <link rel="stylesheet" href="assets/css/styleapp.css">
+
     <!--\\ Fonts //-->
 
     <!-- Bootstrap Style -->
@@ -83,20 +85,21 @@
 
         <section class="banner">
 
-            <div class="container">
+            <div class="container" style="padding-top: 100px;">
 
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="formcontentSec rounded-lg" style="background-color: white !important;">
+                <div class="row align-items-center">
+                    <div class="col-md-5">
+                        <div class="formcontentSec register-form" style="background-color: white !important;">
 
                             <form class="form row flex-column" action="https://www.paypal.com/cgi-bin/webscr"
                                 method="post" id="contactform" name="contactform" novalidate="novalidate">
                                 <div class="col-md-12 mx-auto left-col" style="text-align: right;">
 
-                                    <h2 class="headingsec text-right">معلومات شخصية</h2>
+                                    <h2 class="headingsec text-right"
+                                        style="font-weight: bold; padding: 10px 0px; text-align: center !important">
+                                        معلومات شخصية</h2>
 
                                     <div class="form-group">
-                                        <label for="">الإسم</label>
                                         <input class="form-control" name="first_name" type="text" placeholder="الإسم"
                                             required="" aria-required="true">
 
@@ -104,21 +107,18 @@
 
                                     <div class="form-group">
 
-                                        <label for="">المدينة</label>
                                         <input class="form-control" name="المدينة" type="text" placeholder="المدينة"
                                             required="" aria-required="true">
 
                                     </div>
 
                                     <div class="form-group">
-                                        <label for="">العنوان</label>
                                         <input class="form-control" name="العنوان" type="text" placeholder="العنوان"
                                             required="" aria-required="true">
 
                                     </div>
 
                                     <div class="form-group">
-                                        <label for="">الكمية</label>
                                         <select name="" id="" class="form-control">
                                             <option value="">1</option>
                                             <option value="">2</option>
@@ -129,7 +129,7 @@
                                 </div>
 
                                 <div class="row col-md-6 mx-auto">
-                                    <button type="submit" class="pay-btn btn-block">
+                                    <button type="submit" class="pay-btn">
                                         اشتري الان
                                     </button>
                                 </div>
@@ -139,7 +139,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 d-flex flex-column align-items-end my-4">
+                    <div class="col-md-7 d-flex flex-column align-items-end my-4">
                         <h3>
                             صابو طبي للنساء ذو كعب منخفض
                             يريح الظهر من التعب
@@ -483,11 +483,11 @@
                     </div>
                     <div class="col-md-6 d-flex justify-content-center">
                         <div style="color: white;">
-                            <h1>
+                            <h1 style="color: white">
                                 الدفع عند التسليم
                                 <i class="fas fa-check"></i>
                             </h1>
-                            <h1>
+                            <h1 style="color: white">
                                 التوصيل مجاني
                                 <i class="fas fa-check"></i>
                             </h1>
@@ -497,230 +497,41 @@
                 </div>
             </div>
         </section>
-
-
-
-        <!-- / FAQ Start! \ -->
-
-        <section class="faq-sec pd-80">
-
-            <div class="container">
-
-                <div class="row">
-
-                    <div class="col-md-12 title mb-4">
-
-                        <h2>
-                            هذا النص هو مثال لنص يمكن أن يستبدل
-                        </h2>
-
-                    </div>
-
-                    <div class="col-md-12">
-
-                        <div class="accordion">
-
-                            <div class="accordion-section">
-
-                                <a class="accordion-section-title active" href="#accordion-1">
-                                    هذا النص هو مثال لنص يمكن أن يستبدل
-                                </a>
-
-                                <div id="accordion-1" class="accordion-section-content open" style="display: block;">
-
-                                    <p>
-                                        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من
-                                        مولد النص العربى، حيث يمكنك أن تولد مثل هذا
-                                        النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
-                                        إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات
-                                        كما تريد، النص لن يبدو مقسما ولا يحوي
-                                        أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج
-                                        العميل فى كثير من الأحيان أن يطلع على صورة
-                                        حقيقية لتصميم الموقع.
-                                        ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل
-                                        كاملاً،دور مولد النص العربى أن يوفر على المصمم
-                                        عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا
-                                        يليق.
-                                    </p>
-
-                                </div>
-
-                            </div>
-
-                            <div class="accordion-section">
-
-                                <a class="accordion-section-title" href="#accordion-2">
-                                    هذا النص هو مثال لنص يمكن أن يستبدل
-                                </a>
-
-                                <div id="accordion-2" class="accordion-section-content">
-
-                                    <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد
-                                        النص العربى، حيث يمكنك أن تولد مثل هذا
-                                        النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
-                                        إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات
-                                        كما تريد، النص لن يبدو مقسما ولا يحوي
-                                        أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج
-                                        العميل فى كثير من الأحيان أن يطلع على صورة
-                                        حقيقية لتصميم الموقع.
-                                        ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل
-                                        كاملاً،دور مولد النص العربى أن يوفر على المصمم
-                                        عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا
-                                        يليق.</p>
-
-                                </div>
-
-                            </div>
-
-                            <div class="accordion-section">
-
-                                <a class="accordion-section-title" href="#accordion-3">
-                                    هذا النص هو مثال لنص يمكن أن يستبدل
-                                </a>
-
-                                <div id="accordion-3" class="accordion-section-content">
-
-                                    <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد
-                                        النص العربى، حيث يمكنك أن تولد مثل هذا
-                                        النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
-                                        إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات
-                                        كما تريد، النص لن يبدو مقسما ولا يحوي
-                                        أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج
-                                        العميل فى كثير من الأحيان أن يطلع على صورة
-                                        حقيقية لتصميم الموقع.
-                                        ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل
-                                        كاملاً،دور مولد النص العربى أن يوفر على المصمم
-                                        عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا
-                                        يليق.</p>
-
-                                </div>
-
-                            </div>
-
-                            <div class="accordion-section">
-
-                                <a class="accordion-section-title" href="#accordion-4">
-                                    هذا النص هو مثال لنص يمكن أن يستبدل
-                                </a>
-
-                                <div id="accordion-4" class="accordion-section-content">
-
-                                    <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد
-                                        النص العربى، حيث يمكنك أن تولد مثل هذا
-                                        النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
-                                        إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات
-                                        كما تريد، النص لن يبدو مقسما ولا يحوي
-                                        أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج
-                                        العميل فى كثير من الأحيان أن يطلع على صورة
-                                        حقيقية لتصميم الموقع.
-                                        ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل
-                                        كاملاً،دور مولد النص العربى أن يوفر على المصمم
-                                        عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا
-                                        يليق.</p>
-
-                                </div>
-
-                            </div>
-
-                            <div class="accordion-section">
-
-                                <a class="accordion-section-title" href="#accordion-5">
-                                    هذا النص هو مثال لنص يمكن أن يستبدل
-                                </a>
-
-                                <div id="accordion-5" class="accordion-section-content">
-
-                                    <p>
-                                        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من
-                                        مولد النص العربى، حيث يمكنك أن تولد مثل هذا
-                                        النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
-                                        إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات
-                                        كما تريد، النص لن يبدو مقسما ولا يحوي
-                                        أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج
-                                        العميل فى كثير من الأحيان أن يطلع على صورة
-                                        حقيقية لتصميم الموقع.
-                                        ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل
-                                        كاملاً،دور مولد النص العربى أن يوفر على المصمم
-                                        عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا
-                                        يليق.
-                                    </p>
-
-                                </div>
-
-                            </div>
-
-                            <div class="accordion-section">
-
-                                <a class="accordion-section-title" href="#accordion-6">
-                                    هذا النص هو مثال لنص يمكن أن يستبدل
-                                </a>
-
-                                <div id="accordion-6" class="accordion-section-content">
-
-                                    <p>
-                                        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من
-                                        مولد النص العربى، حيث يمكنك أن تولد مثل هذا
-                                        النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
-                                        إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات
-                                        كما تريد، النص لن يبدو مقسما ولا يحوي
-                                        أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج
-                                        العميل فى كثير من الأحيان أن يطلع على صورة
-                                        حقيقية لتصميم الموقع.
-                                        ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل
-                                        كاملاً،دور مولد النص العربى أن يوفر على المصمم
-                                        عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا
-                                        يليق.
-                                    </p>
-
-                                </div>
-
-                            </div>
-
-                            <div class="accordion-section">
-
-                                <a class="accordion-section-title" href="#accordion-7">
-                                    هذا النص هو مثال لنص يمكن أن يستبدل
-                                </a>
-
-                                <div id="accordion-7" class="accordion-section-content">
-
-                                    <p>
-                                        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من
-                                        مولد النص العربى، حيث يمكنك أن تولد مثل هذا
-                                        النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
-                                        إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات
-                                        كما تريد، النص لن يبدو مقسما ولا يحوي
-                                        أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج
-                                        العميل فى كثير من الأحيان أن يطلع على صورة
-                                        حقيقية لتصميم الموقع.
-                                        ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل
-                                        كاملاً،دور مولد النص العربى أن يوفر على المصمم
-                                        عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا
-                                        يليق.
-                                    </p>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-
-        </section>
-
-        <!-- \ FAQ End! / -->
-
-
-
     </div>
 
     <!-- \ Content End! / -->
 
-
+    <div class="cta-wrap">
+        <div class="container">
+            <div class="col-md-12 text-center">
+                <div class="innerContent col_left" style="outline: none;">
+                    <div class="d-flex align-items-center justify-content-center" style="padding: 0 10px">
+                        <div class="de elHeadlineWrapper ui-droppable de-editable" id="headline-69174"
+                            data-de-type="headline" data-de-editing="false" data-title="headline" data-ce="true"
+                            data-trigger="none" data-animate="fade" data-delay="500"
+                            style="margin-top: 10px; outline: none; cursor: pointer;" aria-disabled="false">
+                            <div class="ne elHeadline hsSize3 lh4 elMargin0 elBGStyle0 hsTextShadow0"
+                                style="text-align: left;font-size: 45px;color: red;font-family: exo;text-decoration: line-through;/* -webkit-transform: rotate(-5deg); */-moz-transform:rotate(-5deg);-ms-transform:rotate(-5deg);-o-transform:rotate(-5deg);/* transform:rotate(-5deg); */"
+                                data-bold="inherit" data-gramm="false" contenteditable="false">
+                                <b style="color: black;">399 DH</b></div>
+                        </div>
+                        <div class="ml-3">
+                            <div class="ne elHeadline hsSize3 lh4 elMargin0 elBGStyle0 hsTextShadow0 mfs_40"
+                                style="text-align: right;font-size: 52px;color: red;font-family: exo;/* text-decoration: line-through; */"
+                                data-bold="inherit" data-gramm="false" contenteditable="false">
+                                <b style=" color: #7640DE;">249 DH</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center py-4" style="font-size: 30px;">! إطلبي الان
+                    <span class="price">درهم399</span>
+                    التخفيض غادي يسالي و الثمن غادي يرجع
+                </p>
+                <a href=" #home" class="page-scroll btn btn-primary">اطبي الان</a>
+            </div>
+        </div>
+    </div>
 
     <!-- / Fooer Start! \ -->
 
@@ -732,7 +543,7 @@
 
                 <div class="col-md-12">
 
-                    <p class="text-center">© جميع الحقوق محفوظة</p>
+                    <p class="text-center" style="color: white;">© جميع الحقوق محفوظة</p>
 
                 </div>
 
