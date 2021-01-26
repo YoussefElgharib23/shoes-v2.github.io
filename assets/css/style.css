@@ -204,6 +204,28 @@ input {
     background-color: white;
 }
 
+.overlay {
+    display: none;
+}
+
+
+
+.intro1 {
+  background-size: cover;
+  padding: 230px 0 200px;
+  background: #00c6ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+
+header p {
+    box-shadow: none;
+    font-size: 18px !important;
+    font-weight: bold;
+}
+
 *{
     margin: 0;
     padding: 0;

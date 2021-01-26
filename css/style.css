@@ -395,8 +395,6 @@ ul, ol, li {
 /*  Intro */
 
 .intro1 {
-	background: #000000 url(../images/bg/1.jpg) no-repeat;
-	background-size: cover;
 	padding: 230px 0 200px;
 }
 
