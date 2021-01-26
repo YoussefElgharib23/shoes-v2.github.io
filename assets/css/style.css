@@ -167,6 +167,10 @@ input {
     color: white !important;
 }
 
+.has-font {
+    font-family: 'Almarai', sans-serif !important;
+}
+
 .icon-preview:hover .icon-pre {
     color: white !important;
 }
