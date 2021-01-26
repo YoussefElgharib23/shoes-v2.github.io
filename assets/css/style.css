@@ -6,6 +6,19 @@ h1, h2, h3, h4, h5, h6, a, p, .smalltext, label, input, li, .pay-btn {
     font-family: 'Almarai', sans-serif !important;
 }
 
+i {
+    font-family: "Font Awesome 5 Free" !important;
+    text-align: center;
+}
+
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free" !important;
+}
+
+footer {
+    padding: 10px !important;
+}
+
 .formcontentSec > h1, h2, h3, h4, h5, h6, a, p {
     text-align: left !important;
 }

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <a href="#" onclick="generatePassword()">Generate a password</a>
+    <p id="generated-password"></p>
+    <script>
+        const generatePassword = function () {
+            var randomstring = Math.random().toString(36).slice(-8);
+            document.getElementById("generated-password").innerHTML = randomstring;
+        }
+    </script>
+</body>
+
+</html>

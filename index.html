@@ -37,10 +37,6 @@
 
     <!--\\ Fonts //-->
 
-    <!-- Bootstrap Style -->
-
-    <link rel="stylesheet" type="text/css" href="assets/plugins/bootstrap/bootstrap.min.css" />
-
     <!-- fancybox Style -->
 
     <link rel="stylesheet" type="text/css" href="assets/plugins/fancybox/fancybox.min.css" />
@@ -49,6 +45,23 @@
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
+    <!-- new FILES-->
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="css/ilmosys-icon.css">
+    <link rel="stylesheet" href="css/icons/fontawesome/css/style.css">
+    <link rel="stylesheet" href="css/icons/style.css">
+    <link rel="stylesheet" href="css/icons/icon2/style.css">
+    <link rel="stylesheet" href="js/vendors/swipebox/css/swipebox.min.css">
+
+
+    <!-- THEME / PLUGIN CSS -->
+    <link rel="stylesheet" href="js/vendors/slick/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- END new FILES-->
+    <!-- Bootstrap Style -->
+
+    <link rel="stylesheet" type="text/css" href="assets/plugins/bootstrap/bootstrap.min.css" />
 </head>
 
 <body>
@@ -78,59 +91,96 @@
     </header>
 
     <!-- \ Header End! / -->
+    <div class="body">
 
-
-
-    <!-- / Content Start! \ -->
-
-    <div class="content">
-
-        <!-- / Banner Start! \ -->
-
-        <section class="banner d-flex align-items-center">
+        <!-- INTRO -->
+        <div id="home" class="intro intro1">
+            <div class="overlay"></div>
             <div class="container">
-                <div class="row flex-row-reverse align-items-center pd-80">
-                    <div class="col-lg-7 d-flex flex-column align-items-center">
-                        <img src="images/SDFAF.png" width="400px" alt="">
-                        <h1 class="mb-5">
-                            صابو طبي للنساء ذو كعب منخفض يريح الظهر من التعب
-                        </h1>
-                    </div>
-                    <div class="col-lg-5">
-                        <form action="" class="register-form p-4" style="background-color: white;">
-                            <h4 class="my-3" style="color: black; text-align: center !important;">المعلومات الشخصية
-                            </h4>
-                            <div class="form-group">
-                                <label for="">الإسم الكامل</label>
-                                <input type="text" class="form-control" placeholder="الإسم الكامل">
-                            </div>
-                            <div class="form-group">
-                                <label for="">المدينة</label>
-                                <input type="text" class="form-control" placeholder="المدينة">
-                            </div>
-                            <div class="form-group">
-                                <label for="">العنوان</label>
-                                <input type="text" class="form-control" placeholder="العنوان">
-                            </div>
-                            <div class="form-group">
-                                <label for="">الكمية</label>
-                                <select class="form-control" placeholder="الكمية">
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                </select>
-                            </div>
+                <div class="row center-content">
+                    <div class="col-sm-7">
+                        <h2>We made your medical<br>treatment easy</h2>
+                        <p>Lorem ipsum dolor sit amet consec tetur elit amet voluptas accusamus <br>dolorum veritatis ea
+                            odio dolor emque.</p>
+                        <div class="row">
+                            <div class="col-md-10">
+                                <ul class="features-list">
+                                    <li>
+                                        <i class="ilmosys-microscope"></i>
+                                        <h5>Laboratory services</h5>
+                                    </li>
 
-                            <input type="submit" value="اطلبي الان" class="btn btn-primary"
-                                style="padding: 5px 40px !important; width: 100%; text-align: center !important">
-                        </form>
+                                    <li>
+                                        <i class="ilmosys-x-ray"></i>
+                                        <h5>Radiology and X-ray facility</h5>
+                                    </li>
+
+                                    <li>
+                                        <i class="ilmosys-ambulance"></i>
+                                        <h5>Ambulance Services</h5>
+                                    </li>
+
+                                    <li>
+                                        <i class="ilmosys-clinic"></i>
+                                        <h5>Ward/ Indoor facility</h5>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="col-md-5">
+                        <div class="intro-form" id="join-us-form contact-form">
+                            <h4>Sydney's #1 Medical Treatment Service Center.</h4>
+                            <div id="join-us-results"></div>
+                            <!-- Form -->
+                            <div class="form-group">
+                                <input type="text" name="first_name" id="first_name"
+                                    class="form-control f-input input-field" placeholder="First Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="last_name" id="last_name"
+                                    class="form-control f-input input-field" placeholder="Last Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="email" class="form-control f-input input-field"
+                                    placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="phone" maxlength="15" class="form-control f-input input-field"
+                                    placeholder="Phone">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="website" class="form-control f-input input-field"
+                                    placeholder="website">
+                            </div>
+                            <button type="submit" class="btn btn-block btn-lg btn-primary" id="submit_btn">Make an
+                                Appointment</button>
+                        </div>
+                        <div id="sendingMessage" class="statusMessage">
+                            <p><i class="fa fa-spin fa-cog"></i> Sending your message. Please wait...</p>
+                        </div>
+
+                        <div id="successMessage" class="successmessage">
+                            <p><span class="success-ico"></span> Thanks for sending your message! We'll get back to you
+                                shortly.</p>
+                        </div>
+                        <div id="failureMessage" class="errormessage">
+                            <p><span class="error-ico"></span> There was a problem sending your message. Please try
+                                again.
+                            </p>
+                        </div>
+                        <div id="incompleteMessage" class="statusMessage">
+                            <p><i class="fa fa-warning"></i> Please complete all the fields in the form before sending.
+                            </p>
+                        </div>
+
                     </div>
                 </div>
+
             </div>
+        </div>
     </div>
-
-    </section>
-
-    <!-- \ Banner End! / -->
 
     <section class="form-area pd-80">
 
