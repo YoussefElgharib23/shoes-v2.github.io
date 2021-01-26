@@ -108,16 +108,16 @@ input {
 
 @media (min-width: 992px) {
     .mt-3-lg, .mt-4-lg {
-        margin-top: 0;
+        margin-top: 0 !important;
     }
 
     .p-lr-5-lg {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
     }
 
     .pd-60-lg {
-        padding: 60px
+        padding: 60px !important
     }
 }
 
