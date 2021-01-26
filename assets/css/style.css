@@ -29,6 +29,10 @@ h1, h2, h3, h4, h5, h6, a, p, .smalltext, label, input, li, .pay-btn {
     text-align: right;
 }
 
+.banner h1 {
+    text-align: center !important;
+}
+
 button .btn-primary {
     font-family: 'Almarai' !important;
 } 
@@ -57,7 +61,12 @@ input {
 }
 
 .register-form input, .register-form select {
-    border-radius: 30px !important;
+    border-radius: 20px !important;
+    border-color: #e8e8e8 !important;
+}
+
+.register-form .form-group {
+    text-align: right !important;
 }
 
 .success-stories img {
@@ -257,7 +266,9 @@ button:focus {
 }
 /* Banner */
 .banner{
-    background-image: url(../../images/5MrI27f.jpg);
+    background: #7F7FD5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-blend-mode: multiply;
     background-color: rgb(146, 146, 146);
     background-repeat: no-repeat;
