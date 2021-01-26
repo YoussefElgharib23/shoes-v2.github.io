@@ -29,6 +29,10 @@ h1, h2, h3, h4, h5, h6, a, p, .smalltext, label, input, li, .pay-btn {
     text-align: right;
 }
 
+button .btn-primary {
+    font-family: 'Almarai' !important;
+} 
+
 input {
 	font-family: "Times New Roman", sans-serif;
 }
@@ -107,7 +111,7 @@ input {
 }
 
 @media (min-width: 992px) {
-    .mt-3-lg, .mt-4-lg {
+    .mt-4-lg {
         margin-top: 0 !important;
     }
 
@@ -120,7 +124,6 @@ input {
         padding: 60px !important
     }
 }
-
 
 .pd-60-lg {
     padding: 30px
@@ -156,6 +159,17 @@ input {
     padding: 20px 40px;
     font-size: 20px;
     border-radius: 50px;
+}
+
+.move-icon {
+    transition: transform .2s ease-in;
+    position: relative;
+    top: 3px;
+    left: -2px;
+}
+
+.btn-icons:hover .move-icon {
+    transform: translatex(-5px);
 }
 
 .btn-icons:hover {
