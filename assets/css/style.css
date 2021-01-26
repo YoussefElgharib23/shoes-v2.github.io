@@ -249,6 +249,36 @@ input {
     font-size: 25px;
 }
 
+.intro1::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 230%;
+    height: 100%;
+    bottom: -1062px;
+    left: 1016px;
+    background: white;
+    transform: skew(85deg);
+    /* transform-origin: bottom bottom;
+    -ms-transform: skew(-30deg, 10deg);
+    -webkit-transform: skew(-30deg, 0deg);
+    transform: skew(-95deg, 0deg); */
+}
+
+@media (min-width: 992px) {
+    .intro1::after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 160%;
+        height: 100%;
+        bottom: -632px;
+        left: 0;
+        background: white;
+        transform: skew(79deg);
+    }
+}
+
 header p {
     box-shadow: none;
     font-size: 18px !important;
