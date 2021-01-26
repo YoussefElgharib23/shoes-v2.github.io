@@ -175,6 +175,10 @@ input {
     transition: all .2s ease-in;
 }
 
+#h5 {
+    font-family: 'Almarai', sans-serif !important;
+}
+
 .btn-icons {
     background-color: #2d3663;
     color: white;
